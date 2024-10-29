@@ -1,7 +1,15 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
 }
 
 .container{
@@ -12,9 +20,14 @@
 
 .header{
     height: 92px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     background-color: #043873;
     border-bottom: 1px solid #ccc;
     
@@ -26,12 +39,19 @@
 
 
 .navi>ul{ 
+    display: -webkit-box; 
+    display: -ms-flexbox; 
     display: flex;
-    justify-content: space-around;
-     align-items: center;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+     -webkit-box-align: center;
+         -ms-flex-align: center;
+             align-items: center;
     gap: 32px;
 }
 .navi>ul>li{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     list-style: none;
 
@@ -48,9 +68,15 @@ a{
 }
 
 .buttons{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     gap: 25px;
 }
 
@@ -68,8 +94,12 @@ a{
 }
 
 .blue-button{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     position: relative;
     
 }
@@ -94,8 +124,12 @@ a{
 }
 
 .main{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     height: 829px;
     background-color: #043873;
     background-image: url(../images/element1.png);
@@ -121,24 +155,38 @@ a{
 }
 
 .blue-button2{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     position: relative;
     margin-top: 60px;
 }
 
 .main2{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     padding: 40px;
     background-image: url(../images/element2.png);
     background-repeat: no-repeat;
 }
 
 .project{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     gap: 20px;
     height: 547px;
 }
@@ -155,9 +203,14 @@ a{
 }
 
 .main3{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     gap: 25px;
     padding: 40px;
 }
@@ -173,8 +226,12 @@ a{
 }
 
 .main4{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     height: 829px;
     background-color: #043873;
     padding: 40px;
